@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los mejores ejercicios para tu cuerpo</title>
+    <style>
+        body, h1, h2, h3, p, ul, li, a {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #007acc;
+            color: #fff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #005f99;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px 10%;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1em;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 10%;
+            background: #007acc;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Los mejores ejercicios para tu cuerpo</h1>
+        <p>Consejos, rutinas y más para mantenerte en forma</p>
+    </header>
+    <nav>
+        <a href="#yoga">Yoga</a>
+        <a href="#hiit">HIIT</a>
+        <a href="#casa">Ejercicios en casa</a>
+    </nav>
+    <main>
+        <!-- Sección 1 -->
+        <section id="yoga">
+            <img src="yoga.jpg" alt="Persona practicando yoga">
+            <h2>5 Tips para Empezar con el Yoga</h2>
+            <p>El yoga es una excelente forma de mejorar tu flexibilidad y fortalecer tu cuerpo. Aquí tienes 5 consejos para comenzar:</p>
+            <ul>
+                <li>Encuentra un lugar tranquilo y cómodo.</li>
+                <li>Usa una esterilla de yoga para mayor soporte.</li>
+                <li>Empieza con posturas simples como la postura del niño o la del gato.</li>
+                <li>Respira profundamente mientras te mueves.</li>
+                <li>Practica al menos 10 minutos al día.</li>
+            </ul>
+        </section>
+        <!-- Sección 2 -->
+        <section id="hiit">
+            <img src="hiit.jpg" alt="Personas haciendo HIIT">
+            <h2>Rutina HIIT para Principiantes</h2>
+            <p>El entrenamiento HIIT es perfecto para quienes buscan quemar calorías en poco tiempo. Prueba esta rutina de 15 minutos:</p>
+            <ul>
+                <li>Calentamiento: Saltos de tijera - 2 minutos.</li>
+                <li>Sprint en el lugar: 30 segundos, descansa 15 segundos.</li>
+                <li>Sentadillas explosivas: 30 segundos, descansa 15 segundos.</li>
+                <li>Flexiones: 30 segundos, descansa 15 segundos.</li>
+                <li>Repite el ciclo 3 veces.</li>
+            </ul>
+        </section>
+        <!-- Sección 3 -->
+        <section id="casa">
+            <img src="casa.jpg" alt="Entrenamiento en casa">
+            <h2>Ejercicios para Entrenar en Casa</h2>
+            <p>Entrenar en casa no requiere equipo costoso. Prueba estos ejercicios:</p>
+            <ul>
+                <li>Planchas: Mantén la posición durante 30 segundos.</li>
+                <li>Estocadas: 10 repeticiones por pierna.</li>
+                <li>Puente de glúteos: 15 repeticiones.</li>
+                <li>Abdominales cortos: 20 repeticiones.</li>
+                <li>Estiramientos para enfriar: Dedica 5 minutos.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Contacto: 3026815213</p>
+        <p>&copy; 2024 Los mejores ejercicios para tu cuerpo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
